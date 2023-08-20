@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400;1,700&display=swap');
+      </style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: black;
+           
+           
+        
+            
+
+        }
+        .Box{
+            position: relative;
+            width: 380px;
+            height: 420px ;
+            border-radius: 30% 0 30% 0;
+            overflow: hidden;
+         
+           
+        }
+        .Box::before
+        {
+            content:'';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 380px;
+            height: 420px;
+           
+            background: linear-gradient(0deg, #ff4545, #ff0000, #ff0000);
+            z-index: 1;
+            transform-origin: bottom right;
+            animation: animate 6s linear infinite;
+         
+
+        }
+        .Box::after
+        {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 380px;
+            height: 420px;
+            background: linear-gradient(0deg, 
+             #00b3ff, #00ffff, #00ffff);
+            z-index: 1;
+            transform-origin: bottom right;
+            animation: animate 6s linear infinite;
+            animation-delay: -3s;
+        }
+        .borderLine
+        {
+            position: absolute;
+            top: 0;
+            inset: 0;
+        }
+       
+        @keyframes animate
+        {
+            0%{
+                transform: rotate(0deg);
+            }
+        100%
+    {
+        transform: rotate(360deg);
+    }
+        }
+
+        .Box form{
+            position: absolute;
+            inset: 4px;
+            padding: 50px 40px;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+           background-color: #0e0e1f;
+           border-radius: 30% 0 30% 0;
+            
+        }
+        .Box form h2
+        {
+            color: white;
+            font-weight: 500;
+            text-align: center;
+            margin-right:10px;
+            letter-spacing: 0.1em;
+        }
+        .Box form .inputBox
+        {
+            position: relative;
+            width: 300px;
+            margin-top: 35px;
+        }
+        .Box form .inputBox input{
+            position: relative;
+            width: 100%;
+            padding: 20px 10px 10px;
+            background: transparent;
+            outline: none;
+            box-shadow: none;
+            color: #ffffff;
+            border: none;
+            font-size: 1em;
+            letter-spacing: 0.05em;
+            transition: 0.5s;
+            z-index: 10;
+        }
+        .Box form .inputBox span
+        {
+            position: absolute;
+            left: 0;
+            padding: 20px 10px 10px;
+            pointer-events: ;
+            color: #f9f8f8;
+            font-size: 1em;
+            letter-spacing: 0.05em;
+            transition: 0.5s;
+
+        }
+        span{
+            color: white;
+            font-size: 2rem;
+        }
+        .Box form .inputBox input:valid ~ span,
+        .Box form .inputBox input:focus ~ span
+        {
+            color: #fff;
+            font-size: 0.75em;
+            transform: translate(-40px);
+            top: -30px;
+            right: 0;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        .Box form .inputBox i
+        {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            transition: 0.5s;
+            pointer-events: none;
+
+        }
+        .Box form .inputBox input:valid ~ i,
+        .Box form .inputBox input:focus ~ i
+        {
+            height: 2px;
+        }
+        .Box form .Links 
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        .Box form .Links a
+        {
+            margin: 10px 0;
+            font-size: 0.75em;
+            color: #8f8f8f;
+            text-decoration: none;
+        } 
+        .Box form .Links a:hover,
+        .Box form .Links a:nth-child(2)
+        {
+            color: #fff;
+
+        }
+        .Box form input[type="submit"]
+        {
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            outline: none;
+            padding: 9px 25px;
+            background: #ffffff;
+            cursor: pointer;
+            font-size: 0.9em;
+            border-radius: 4px;
+            font-weight: 600;
+            width: 100px;
+            margin: 10px;
+        }
+        .Box form input[type="submit"] :active
+        {
+            opacity: 0.8;
+        }
+        h1{
+            color: rgb(247, 245, 255);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+            
+
+        }
+     button{
+            
+            height: 40px;
+            border-radius: 40px;
+            text-align: center;
+            border: 2px solid white;
+        background: none;
+           color: #ffffff;
+           font-weight: 600;
+     }
+     button:hover{
+        background-color: #00f2ff;
+        color: #000;
+     }
+
+
+    </style>
+</head>
+<body>
+    
+    
+    <div class="Box">
+        <span class="borderLine"></span>
+        <form>
+            <h1>Login</h1>
+            <div class="inputBox">
+            <input type="text" required="required">
+            <span i class="ri-user-fill" style="color: #fff;"></i>Username</span>
+            <i></i>
+        </div>
+            <div class="inputBox">
+                <input type="password" required="required">
+                <span i class="ri-lock-line" style="color: white;"></i>Password</span>
+                <i></i>
+            </div>
+            <div class="Links">
+                <a href="#">Forget Password</a>
+                <a href="#">Sign Up</a>
+            </div>
+            <Br> 
+            <button>SUBMIT</button>
+        </form>
+    </div>
+    
+</body>
+</html>
