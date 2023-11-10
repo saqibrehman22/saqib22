@@ -1,0 +1,36 @@
+/* Color Name  */
+
+/* h1{
+    color:brown;
+} */
+
+/* HexaDecimal Code */
+
+/* 
+h1{
+    color:#542312;
+} */
+
+/* RGB  
+/* h1{
+    color:rgb(143, 98,231 );
+}
+
+/* BackGround Color */
+/* body{
+    background-color: brown;
+    color:red;
+}  */
+/* div{
+    background-color: aqua;
+    color:red;
+} */
+
+/* Opacity */
+#div1{
+    background-color: chartreuse;
+    opacity: 0.4;
+}
+img{
+    opacity: 0.5;
+}
