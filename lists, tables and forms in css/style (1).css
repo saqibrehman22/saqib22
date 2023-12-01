@@ -1,0 +1,132 @@
+/* UN ORDERED LIST */
+
+/* ul{
+    list-style-type: square;
+} */
+
+/* ORDERED LIST */
+
+/* ol{
+    list-style-type: upper-latin;
+} */
+
+
+/* imagesForBullets */
+
+/* ul{
+    list-style-image: url(./images/icons8-arrow-100.png);
+} */
+
+
+/* listStylePosition */
+
+/* ul.illuminations {
+    list-style-position: outside;
+}
+
+ul.season {
+    list-style-position: inside;
+} */
+
+
+/* listStyleShorthand */
+/* 
+ul {
+    list-style: inside circle;
+    width: 300px;
+} */
+
+/* tableProperties */
+/* 
+table{
+    width: 600px;
+    border: 1px solid red;
+    text-transform: capitalize;
+
+}  */
+/* 
+table,td,tr{
+    border: 1px solid red;
+    border-collapse: collapse;
+} */
+/* 
+td{
+    text-align: center;
+}
+td:hover{
+    background-color: antiquewhite;
+    padding: 20px;
+} */
+
+/* th{
+    background-color: chartreuse;
+} */
+
+
+/* borderOnEmptyCell */
+/* td {
+    border: 1px solid #0088dd;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+table{
+    empty-cells: show;
+
+} */
+
+
+/* gapsBetweenCell */
+/* 
+td {
+    background-color: #0088dd;
+    padding: 15px;
+    border: 2px solid #000000;
+}
+
+table.one {
+    border-spacing: 5px 15px;
+    border-collapse: collapse;
+} */
+
+
+/* stylingForms */
+/* 
+input{
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    border: 1px solid red;
+
+} */
+
+/* .q{
+    background-image: url(./images/icons8-mail-10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* fieldset&legend */
+/* 
+fieldset {
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+}
+
+legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+} */
+
+
+/* cursorStyle */
+.qw:hover{
+    cursor:alias;
+}
