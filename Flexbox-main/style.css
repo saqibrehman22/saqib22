@@ -1,0 +1,259 @@
+/* BASICS OF FLEXBOX */
+
+/* 
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+} */
+
+
+/* FLEX CONTAINER */
+/* 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+/* FLEX WRAP */
+
+/* .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+/* JUSTIFY CONTENT */
+/* 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+/* ALIGM CONTENT */
+
+/* .flex-container {
+    display: flex;
+    height: 200px;
+    align-items: baseline;
+    background-color: DodgerBlue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+
+/* FLEX ITEMS */
+
+/* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+/* FLEX GROW */
+
+/* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+/* FLEX SHRINK */
+
+/* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+/* FLEX BASIS */
+
+/* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+
+/* ALIGN SELF */
+
+/* .flex-container {
+    display: flex;
+    height: 200px;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+
+/* RESPONSIVE FLEXBOX */
+/* 
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+} */
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+/* @media (max-width: 800px) {
+
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+    }
+} */
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+} */
+
+/* Create four equal columns that sits next to each other */
+/* .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+} */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/* @media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+} */
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* @media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+} */
