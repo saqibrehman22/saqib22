@@ -1,0 +1,54 @@
+/* iamge size */
+/* 
+img{
+    height: 100px;
+    width: 100px  ;
+} */
+
+
+/* aligning images */
+/* img{
+    margin-left: 500px;
+} */
+/* img{
+    float: right;
+} */
+
+
+/* centring images */
+/* 
+img{
+    display: block;
+    margin: auto;
+} */
+/* 
+body{
+    background-image: url(./images/Capture0.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:left ;
+} */
+
+/* body {
+    background: #ffffff url("./images/Capture0.png") no-repeat top right;
+} */
+
+
+/* gradients */
+/* linear grdient */
+/* body {
+    background-image: linear-gradient(red, yellow);
+}
+ */
+ /* body{
+    background-image: linear-gradient(to right, red, yellow)
+} */
+
+/* body{
+    background-image: radial-gradient(circle, red, yellow, green);
+} */
+
+body{
+    background-image: conic-gradient(red, yellow, green, blue, black);
+        border-radius: 50%;
+}
