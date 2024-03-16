@@ -1,0 +1,179 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(132, 132, 172);
+}
+.firstdiv{
+
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    border-radius: 120px;
+    position: absolute;
+    left:288px;
+}
+.picture{
+    width: 100%;
+    height: 100%;
+    background: url(./Images/images1.webp);
+    background-size: cover;
+}
+.picture h1{
+    color:white;
+    margin-left: 40px;
+    margin-top: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.page h2{
+    text-align: center;
+    margin-top: 20px;
+}
+#firstpara{
+    margin-top: 15px;
+    text-align: center;
+    color:gray;
+}
+#firstspan{
+    color: blue;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Thirddiv{
+    margin-top: 20px;
+}
+.firstinput{
+    height: 30px;
+    width: 73%;
+    margin-left:50px;   
+    border-radius: 3px;
+    border: 2px solid gray;
+    margin-top: 5px;
+}
+.firstlaba{
+    margin-left:50px ;
+    font-size: 17px;
+    font-weight: bold;
+}
+.secondinput{
+    height: 30px;
+    width: 73%;
+    margin-left:50px; 
+    border: 2px solid gray;
+    border-radius: 3px; 
+    margin-top: 5px;
+}
+.thirddiv input:focus{
+    outline: none;
+}
+.secondlaba{
+    margin-left:50px ;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+.seconddiv{
+    margin-left:50px;
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+.seconddiv p{
+    margin-left: 7px;
+    color: gray;
+}
+#firstbutton{
+    margin-left: 50px;
+    width: 75%;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+}
+#firsth3{
+    color:blue;
+    text-decoration: underline;
+    float: right;
+    margin-top: 15px;
+    margin-right:50px;
+    cursor: pointer;
+}
+.firstcontainer{
+    position: absolute;
+    /* z-index: -1; */
+    display: none;
+    height: 400px;
+    width: 700px;
+    top:60px;
+    margin-left:41%;
+    
+}
+.flex{
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.page1 h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.inputs{
+    margin-top:10px;
+}
+.inputs input{
+    width: 70%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left:40px;
+}
+.page1 button{
+    width: 70%;
+    height: 35px;
+    border-radius:8px;
+    border: none;
+    margin-left: 40px;
+    margin-top:10px;
+    cursor: pointer;
+    background-color: blue;
+    color:white;
+}
+.page1 p{
+    margin-left: 40px;
+    margin-top: 15px;
+    color:gray;
+}
+.page1 p span {
+    color:blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    background: url(./Images/360_F_571060419_Owx0HieYkYocICzV4W7IxmXpdmP1xo7F.jpg);
+    background-size: cover;
+}

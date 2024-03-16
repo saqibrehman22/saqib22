@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_SignUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="firstdiv" id="khan1">
+        <div class="picture">
+        </div>
+        <div class="page">
+            <h2>Login</h2>
+            <div class="Thirddiv">
+            <label class="firstlaba">Email Address</label>
+            <input type="email" class="firstinput" placeholder="you@example.com" required id="email">
+            <label  class="secondlaba" id="password">Password</label>
+            <input type="password" class="secondinput" placeholder="Enter 6 Character or More" required>
+            <div class="seconddiv">
+                <input type="checkbox">
+                <p>Remember me</p>
+            </div>
+            <button id="firstbutton" onclick="condition()">Login</button>
+         <p id="firstpara">Doesn't have an account yet ?  <span id="firstspan" onclick="signup()">sign up</span></p>
+            <h4 id="firsth3">forgot Password</h4>
+        </div>
+        </div>
+    </div>
+
+    <div class="firstcontainer" id="khan">
+        <div class="flex">
+        <div class="page1">
+            <h2>Sign Up</h2>
+            <div class="inputs">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="EmailAddress" required id="email1">
+                <input type="password" placeholder="Password" required id="password1">
+                <input type="password" placeholder="Confirm Password" required id="password2">
+            </div>
+            <button onclick="myfunction()">Sign Up</button>
+            <p>already have an account? <span onclick="login()">Login</span></p>
+        </div>
+        <div class="page2">
+            <!-- <h1>Hello</h1> -->
+        </div>
+
+    </div>
+    </div>
+
+
+
+<script src="./index.js"></script>
+</body>
+</html>
